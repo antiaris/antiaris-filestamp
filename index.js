@@ -4,9 +4,10 @@
  *
  * changelog
  * 2016-06-16[16:08:31]:revised
+ * 2016-06-16[20:01:46]:replace 62 radix to 36
  *
  * @author yanni4night@gmail.com
- * @version 1.0.0
+ * @version 1.1.0
  * @since 1.0.0
  */
 'use strict';
@@ -15,14 +16,9 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
-const Numbase = require('numbase');
-
-const base = new Numbase();
-
 const getDigest = content => {
     let digest = crypto.createHash('md5').update(content).digest('hex');
-    digest = (parseInt(digest, 16) % 1e10).toString(16);
-    return base.encode(base.decode(digest, 16));
+    return  (parseInt(digest, 16) % 1e10).toString(36);
 }
 
 const rename = (filename, stamp) => {
