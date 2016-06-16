@@ -3,4 +3,4 @@ before_install:
 sudo: false
 node_js:
   - "6"
-  - latest
+  - stable
