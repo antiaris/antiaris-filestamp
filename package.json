@@ -1,6 +1,6 @@
 {
     "name": "antiaris-filestamp",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "File stamp for antiaris",
     "main": "./node_modules/.bin/index.js",
     "scripts": {

@@ -27,7 +27,7 @@ const getDigest = content => {
 
 const rename = (filename, stamp) => {
     const ext = path.extname(filename);
-    return path.basename(filename, ext) + `_${stamp}${ext}`;
+    return `${stamp}${ext}`;
 };
 
 const filestamp = exports.filestamp = (filename, cb) => {
