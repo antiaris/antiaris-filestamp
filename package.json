@@ -1,0 +1,33 @@
+{
+    "name": "antiaris-filestamp",
+    "version": "1.0.0",
+    "description": "File stamp for antiaris",
+    "main": "./node_modules/.bin/index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/antiaris/antiaris-filestamp.git"
+    },
+    "keywords": [
+        "filestamp",
+        "antiaris"
+    ],
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "author": "yanni4night@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/antiaris/antiaris-filestamp/issues"
+    },
+    "homepage": "https://github.com/antiaris/antiaris-filestamp#readme",
+    "devDependencies": {
+        "colors": "^1.1.2",
+        "mocha": "^2.5.3"
+    },
+    "dependencies": {
+        "numbase": "^0.1.1"
+    }
+}
