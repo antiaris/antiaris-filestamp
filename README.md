@@ -1,3 +1,5 @@
+Deprecated, use [filestamp](https://github.com/yanni4night/filestamp)
+
 # antiaris-filestamp
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
